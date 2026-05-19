@@ -21,6 +21,7 @@ This project helps beginners learn:
 - Wind speed
 - Environment variable support
 - Error handling
+- 5-day forecast
 
 ---
 
@@ -137,6 +138,44 @@ Wind Speed  : 3.5 m/s
 
 ---
 
+## Get 5-Day Forecast
+
+```bash
+python weather.py Delhi --forecast
+```
+---
+
+# Example Output
+
+## Current Weather
+
+```bash
+Current Weather in Delhi
+----------------------------------------
+Temperature : 38°C
+Condition   : haze
+Humidity    : 42%
+Wind Speed  : 3.5 m/s
+```
+
+---
+
+## 5-Day Forecast
+
+```bash
+5-Day Forecast for Delhi
+----------------------------------------
+2026-05-19 12:00:00
+Temperature : 38°C
+Condition   : haze
+----------------------------------------
+
+2026-05-20 12:00:00
+Temperature : 39°C
+Condition   : clear sky
+----------------------------------------
+```
+
 # Example Code Concepts
 
 This project covers:
@@ -155,7 +194,6 @@ This project covers:
 
 Possible enhancements:
 
-- 5-day forecast
 - Multiple unit support
 - Weather icons
 - Colored terminal output
