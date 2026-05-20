@@ -22,6 +22,7 @@ This project helps beginners learn:
 - Environment variable support
 - Error handling
 - 5-day forecast
+- Weather icons
 
 ---
 
@@ -128,12 +129,12 @@ python weather.py Delhi
 # Example Output
 
 ```bash
-Weather in Delhi
-------------------------------
-Temperature : 38°C
-Condition   : haze
-Humidity    : 42%
-Wind Speed  : 3.5 m/s
+Current Weather in Delhi
+----------------------------------------
+Temperature : 33.05°C
+Condition   : 🌍 haze
+Humidity    : 27%
+Wind Speed  : 2.06 m/s
 ```
 
 ---
@@ -164,16 +165,29 @@ Wind Speed  : 3.5 m/s
 
 ```bash
 5-Day Forecast for Delhi
+5-Day Forecast for Delhi
 ----------------------------------------
-2026-05-19 12:00:00
-Temperature : 38°C
-Condition   : haze
+2026-05-20 03:00:00
+Temperature : 33.05°C
+Condition   : ☀️ clear sky
+----------------------------------------
+2026-05-21 03:00:00
+Temperature : 37.23°C
+Condition   : ☀️ clear sky
+----------------------------------------
+2026-05-22 03:00:00
+Temperature : 36.58°C
+Condition   : ☀️ clear sky
+----------------------------------------
+2026-05-23 03:00:00
+Temperature : 37.71°C
+Condition   : ☀️ clear sky
+----------------------------------------
+2026-05-24 03:00:00
+Temperature : 37.02°C
+Condition   : ☀️ clear sky
 ----------------------------------------
 
-2026-05-20 12:00:00
-Temperature : 39°C
-Condition   : clear sky
-----------------------------------------
 ```
 
 # Example Code Concepts
@@ -195,7 +209,6 @@ This project covers:
 Possible enhancements:
 
 - Multiple unit support
-- Weather icons
 - Colored terminal output
 - Table formatting
 - Async requests
